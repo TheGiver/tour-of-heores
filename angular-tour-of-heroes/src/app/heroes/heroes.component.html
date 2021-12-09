@@ -1,14 +1,9 @@
-<h2>Bhold our greatest heroes!</h2>
+<h2>BEHOLD OUR GREATEST SUPERHEROES</h2>
 
 <div>
-    <h4>Hero number: {{hero.id}}</h4>
-</div>
-
-<div>
-    <h4>Hero name: {{hero.name}}</h4>
-</div>
-
-<div>
-    <label for="hero-name">New hero name suggestion? </label>
-    <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+    <ul class="heroes">
+        <li *ngFor="let hero of heroes">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+        </li>
+    </ul>
 </div>
