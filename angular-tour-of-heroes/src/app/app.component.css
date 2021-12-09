@@ -1,11 +1,26 @@
-h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
+.introduction-segment {
+    background: url('./data_source/images/introduction-segment/introduction_segment_background_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    margin: 2em;
+.introduction-segment-title {
+    font-size: 200%;
+    margin-left: 6%;
+    width: 40%;
+    bottom: 0%;
+}
+
+.introduction-segment-about-me {
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    bottom: 0%;
+    width: 50%;
+}
+
+.introduction-segment-child {
+    display: inline-block;
+    vertical-align: middle;
 }
