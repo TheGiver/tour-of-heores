@@ -1,11 +1,21 @@
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: max-content;
+}
+
+.root-container {
+    width: 100%;
+    height: max-content;
+}
+
 .introduction-segment {
     background: url('./data_source/images/introduction-segment/introduction_segment_background_image.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     color: white;
-    padding-bottom: 30%;
     width: 100%;
-    overflow: auto;
+    height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -25,4 +35,5 @@
 .introduction-segment-child {
     display: inline-block;
     vertical-align: middle;
+    bottom: 0;
 }
