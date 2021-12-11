@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    padding-bottom: 30%;
+    width: 100%;
+    overflow: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,13 +13,12 @@
     font-size: 200%;
     margin-left: 6%;
     width: 40%;
-    bottom: 0%;
 }
 
 .introduction-segment-about-me {
+    text-align: justify;
     font-size: 100%;
     margin-left: 3%;
-    bottom: 0%;
     width: 50%;
 }
 
