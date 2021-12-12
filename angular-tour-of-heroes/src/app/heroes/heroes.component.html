@@ -2,10 +2,16 @@
     <h2>BEHOLD OUR GREATEST SUPERHEROES</h2>
 </div>
 
-<div>
-    <ul class="heroes">
-        <li *ngFor="let hero of heroes">
-        <span class="badge">{{hero.id}}</span> {{hero.name}}
-        </li>
-    </ul>
-</div>
+<ngx-slick-carousel class="carousel"
+                    #slickModal="slick-carousel"
+                    [config]="slideConfig"
+                    (init)="slickInit($event)"
+                    (breakpoint)="breakpoint($event)"
+                    (afterChange)="afterChange($event)"
+                    (beforeChange)="beforeChange($event)">
+
+    <div ngxSlickItem *ngFor="let hero of heroes" class="slide">
+        <h6>{{hero.name}}</h6>
+    </div>
+
+</ngx-slick-carousel>
