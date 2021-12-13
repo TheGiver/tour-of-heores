@@ -1,17 +1,14 @@
-<div class="hero-announcement">
-    <h2>BEHOLD OUR GREATEST SUPERHEROES</h2>
-</div>
-
-<ngx-slick-carousel class="carousel"
-                    #slickModal="slick-carousel"
-                    [config]="slideConfig"
-                    (init)="slickInit($event)"
-                    (breakpoint)="breakpoint($event)"
-                    (afterChange)="afterChange($event)"
-                    (beforeChange)="beforeChange($event)">
-
-    <div ngxSlickItem *ngFor="let hero of heroes" class="slide">
-        <h6>{{hero.name}}</h6>
+<div class="heroes-slideshow">
+    <div class="hero-announcement">
+        <h2>BEHOLD OUR GREATEST SUPERHEROES</h2>
     </div>
 
-</ngx-slick-carousel>
+    <div class="heroes-carousel">
+        <carousel-component>
+            <div class="item-carousel" *ngFor="let hero of heroes">
+                <h6>{{hero.name}}</h6>
+                <img src={{hero.image}} alt="hero image"/>
+            </div>
+        </carousel-component>
+    </div>
+</div>

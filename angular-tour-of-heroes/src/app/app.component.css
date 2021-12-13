@@ -10,7 +10,7 @@ html, body {
 }
 
 .introduction-segment {
-    background: url('./data_source/images/introduction-segment/introduction_segment_background_image.png');
+    background: url('./data_source/images/background/introduction_segment_background_image.png');
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
@@ -25,7 +25,7 @@ html, body {
     width: 40%;
 }
 
-.introduction-segment-about-me {
+.introduction-segment-about-website {
     text-align: justify;
     font-size: 100%;
     margin-left: 3%;
@@ -35,5 +35,10 @@ html, body {
 .introduction-segment-child {
     display: inline-block;
     vertical-align: middle;
-   bottom: 0%;
+    bottom: 0%;
 }
+
+.about-me-prompt {
+    margin: 2% 3% 3% 3%; 
+    text-align: justify;
+} 
