@@ -38,7 +38,27 @@ html, body {
     bottom: 0%;
 }
 
+.about-me-segment {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .about-me-prompt {
     margin: 2% 3% 3% 3%; 
     text-align: justify;
+    font-size: 120%;
+    line-height: 200%;
+    margin-bottom: 5%;
 } 
+
+.attribution-segment {
+    font-size: 16%;
+}
+
+.about-me-contact-me {
+    text-align: center;
+}
+
+.icon {
+    margin-left: 6%;
+    margin-right: 6%;
+}
