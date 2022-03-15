@@ -3,3 +3,9 @@
 
 # Ada Library Information
 *.ali
+
+# ignore .idea files
+.idea
+
+# ignoring MacOS related files
+.DS_Store
